@@ -1,0 +1,7 @@
+function fatorial(n){
+    //let i = 1
+    for(i=1; i<n;i++){
+        n *= i
+    }
+}
+console.log(fatorial(5))
